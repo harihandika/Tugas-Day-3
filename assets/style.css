@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container {
+    height: 93vh;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+}
+
+/* ==== Main Page ==== */
+
+nav {
+    display: flex;
+    height: 10vh;
+    background-color: rgb(236, 236s, 236);
+}
+
+nav div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    padding-left: 50px;
+}
+
+nav .left-side img {
+    margin-right: 40px;
+}
+
+nav .left-side a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav .right-side {
+    padding-right: 50px;
+    justify-content: end;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(27, 23, 21);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* ==== Akhir Main Page ==== */
+
+/* ==== Form Contact Me ==== */
+.form-contact-me {
+    /* border-style: solid; */
+    width: 400px
+}
+
+/* .label-input {
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+.form-contact-me div {
+    margin-bottom: 20px;
+}
+
+.form-contact-me div label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-contact-me div input,select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    padding: 10px;
+    resize: none;
+}
+
+.form-contact-me button {
+    background-color: rgb(27, 37, 68);
+    color: white;
+    font-size: 16px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 75%;
+}
+
+.form-contact-me button:hover {
+    background-color: rgb(176, 47, 0);
+}
+
+/* ==== Akhir Form Contact Me ==== */
+
+/* ==== Main Page ==== */
+.wrapper {
+    width: 90%;
+    padding: 10;
+    display: flex;
+}
+
+.wrapper .left-side {
+    border-style: solid;
+    flex: 40%;
+    border-color: gray;
+    padding-bottom: 20px ;
+}
+
+.wrapper .right-side {
+    flex: 60%;
+    padding-right: 40px;
+
+}
+
+.wrapper .right-side .main {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.wrapper .right-side .skill {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.wrapper .right-side .skill .contact a {
+    display:flex;
+    color :white;
+    background-color: rgb(27, 23, 21);
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.wrapper .right-side .skill .item {
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+
+.wrapper .right-side .skill .download img{
+    padding: 5px 0px;
+    border-radius: 10px;
+    width: 35px;
+}
+
+.wrapper .right-side p {
+    color: gray;
+    text-align: justify;
+}
+
+.wrapper .right-side .sosmed{
+    font-size: 30px;
+}
+
+.wrapper .right-side .sosmed .sosmed-wrapper {
+    display: flex;
+}
+
+.wrapper .right-side .sosmed .sosmed-wrapper a {
+    color: black;
+}
+
+.wrapper .right-side .sosmed .icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+/* ==== Akhir Main Page ==== */
