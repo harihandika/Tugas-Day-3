@@ -2,6 +2,7 @@
     <head>
         <title>Creating Form, Navbar & Layouting</title>
         <link rel="stylesheet" href="./assets/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <script src="script.js"></script>
     </head>
     <body>
@@ -9,7 +10,7 @@
             <div class="left-side">
                 <img src="./assets/logo.png" alt="">
                 <div>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" style="font-weight:bold">Home</a>
                     <a href="#">My Project</a>
                 </div>
             </div>
@@ -17,16 +18,18 @@
                 <a href="contact-me.html">Contact Me</a>
             </div>
        </nav>
-        <div class="container">
+
+        <div class="container2">
             <form class="form-contact-me">
                 <div>
+                    <h1 >GET IN TOUCH</h1>
                     <label for="input-name" class="label-input">Name</label>
-                    <input class="input-name" id="input-name" type="text" placeholder="Write your name"/>
+                    <input id="input-name" type="text" placeholder="Write your name"/>
                 </div>
                 
                 <div>
                     <label for="input-email">Email</label>
-                    <input id="input-email" type="email"/>
+                    <input id="input-email" type="email" placeholder="Write your email"/>
                 </div>
 
                 <div>
@@ -37,7 +40,7 @@
                 <div>
                     <label for="choose-subject">Subject</label>
                     <select id="choose-subject">
-                        <option hidden value="">Choose Subject</option>
+                        <option hidden>Choose Subject</option>
                         <option>Send Your Documents</option>
                         <option>Let's Talk</option>
                         <option>Let's Collaboration</option>
@@ -46,11 +49,11 @@
                 </div>
 
                 <div>
-                    <label for="input-message">Message</label>
+                    <label for="input-message">Your Message</label>
                     <textarea id="input-message" rows="8" placeholder="Write your message"></textarea>
                 </div>
 
-                <button type="button" onclick="submitForm()">Submit</button>
+                <button typr="button" onclick="submitForm ()">Submit</button>
             </form>
         </div>
     </body>
